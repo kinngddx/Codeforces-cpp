@@ -7,7 +7,7 @@ int solve(int n) {
         if (n % 6 == 0) {
             n /= 6;
         } else {
-            if (n % 3 != 0) return -1;  // multiplying by 2 won't help
+            if (n % 3 != 0) return -1; 
             n *= 2;
         }
         count++;
