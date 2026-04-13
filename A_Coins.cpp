@@ -1,13 +1,25 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    long long n, S;
-    cin >> n >> S;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    long long result = S / n;
-    if (S % n != 0) result++;
+    int t;
+    cin >> t;
+    while (t--) {
+        long long n, k;
+        cin >> n >> k;
 
-    cout << result << endl;
+       
+        if (n % 2 == 0) {
+            cout << "YES" << endl;
+        } else if (k % 2 != 0) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
     return 0;
 }
