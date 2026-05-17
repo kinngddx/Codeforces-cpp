@@ -15,6 +15,8 @@ int solve(int n) {
     return count;
 }
 
+
+
 int main() {
     int t;
     cin >> t;
