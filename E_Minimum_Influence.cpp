@@ -92,6 +92,7 @@ int main() {
         }
 
         
+        
 
         if (P + D <= MAX) {
             long long v = suff_min_c_by_p[P + D];
