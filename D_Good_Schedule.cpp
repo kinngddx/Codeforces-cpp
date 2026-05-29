@@ -66,6 +66,9 @@ void solve() {
     
 
     long long ans = 0;
+
+
+    
     for (int l = 1; l <= n; l++) {
         if (R_max[l] >= l) {
             ans += (R_max[l] - l + 1);
