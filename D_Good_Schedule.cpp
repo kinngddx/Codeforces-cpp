@@ -9,6 +9,8 @@ int find_next(int x, vector<int>& nxt_uncolored) {
     return nxt_uncolored[x] = find_next(nxt_uncolored[x], nxt_uncolored);
 }
 
+
+//this is a good quyestions beta
 void solve() {
     int n;
     if (!(cin >> n)) return;
