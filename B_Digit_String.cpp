@@ -7,8 +7,10 @@ int main() {
 
     int t;
     cin >> t;
-
+        
     while (t--) {
+
+        
         string s;
         cin >> s;
 
