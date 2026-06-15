@@ -23,6 +23,7 @@ int main(){
         for(int b:blocks) xorAll ^= (b%2);
         
         // Track starting index of each block in sorted array
+        
         vector<int> blockStart;
         i=0;
         for(int b:blocks){
